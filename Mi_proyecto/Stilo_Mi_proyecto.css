@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Raleway:wght@500&display=swap');
+
+:root{
+    /*Palette*/
+    --primary-solid: #FF3333;
+    --primary-900: rgba(255, 51, 51,0.9);
+    --primary-500: rgba(255, 51, 51,0.5);
+    --primary-300: rgba(255, 51, 51,0.3);
+
+    --secondary-solid: #1D84B5;
+    --secondary-900: rgb(29, 132, 181,0.9);
+    --secondary-500: rgb(29, 132, 181,0.5);
+    --secondary-300: rgb(29, 132, 181,0.3);
+
+    --dark-solid: #1f1f1f;
+    --dark-900: rgb(31, 31, 31,0.9);
+    --dark-500: rgb(31, 31, 31,0.5);
+    --dark-300: rgb(31, 31, 31,0.3);
+
+    --dark-bg-solid: #30343f;
+    --light-bg-solid: #fafaff;
+     
+    /*Typografhy*/
+    --base-font: 'Inter', sans-serif;
+    --alternative-font: 'Raleway', sans-serif;
+
+    /*Fonts-sizes*/
+    --font-display: 1em;
+
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+    color: #111111;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2em;
+    font-family: inherit;
+    color: inherit;
+}
+
+header,footer{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+
+
+header{
+    background-color: rgb(133, 135, 247);
+}
